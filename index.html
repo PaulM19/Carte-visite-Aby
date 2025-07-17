@@ -8,19 +8,19 @@
     body {
       margin: 0;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #1e003e;
+      background-color: #E6EEF6;
       display: flex;
       align-items: center;
       justify-content: center;
       height: 100vh;
     }
     .card {
-      background: linear-gradient(135deg, #663399, #1e003e);
+      background-color: #ffffff;
       border-radius: 20px;
-      color: white;
+      color: #003580;
       width: 340px;
       padding: 20px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
     }
     .top-section {
       display: flex;
@@ -38,6 +38,7 @@
     }
     .info p {
       margin: 6px 0;
+      color: #003580;
     }
     .icon {
       margin-right: 10px;
@@ -47,9 +48,9 @@
       margin: 15px 0;
       padding: 12px;
       text-align: center;
-      border: 1px solid #a062ff;
+      border: 1px solid #003580;
       border-radius: 10px;
-      background-color: transparent;
+      background-color: #003580;
       color: white;
       font-weight: bold;
       cursor: pointer;
@@ -57,7 +58,22 @@
       transition: background 0.3s;
     }
     .btn:hover {
-      background-color: #a062ff;
+      background-color: #002a66;
+    }
+    a {
+      color: #003580;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    h2 {
+      margin-bottom: 5px;
+      color: #003580;
+    }
+    .subtitle {
+      color: #A9B3C1;
+      margin-bottom: 10px;
     }
   </style>
 </head>
@@ -69,10 +85,10 @@
     </div>
     <div class="info">
       <h2>Aby Myriam Pouye Diop</h2>
-      <p>Responsable ESG & Projet</p>
-      <p><span class="icon">📧</span><a style="color:white" href="mailto:Aby-myriam.POUYE@accor.com">Aby-myriam.POUYE@accor.com</a></p>
-      <p><span class="icon">📞</span><a style="color:white" href="tel:+221775296110">+221 77 529 61 10</a></p>
-      <p><span class="icon">📞</span><a style="color:white" href="tel:+221338496161">+221 33 849 61 61</a></p>
+      <p class="subtitle">Responsable ESG & Projet</p>
+      <p><span class="icon">📧</span><a href="mailto:Aby-myriam.POUYE@accor.com">Aby-myriam.POUYE@accor.com</a></p>
+      <p><span class="icon">📞</span><a href="tel:+221775296110">+221 77 529 61 10</a></p>
+      <p><span class="icon">📞</span><a href="tel:+221338496161">+221 33 849 61 61</a></p>
       <p><span class="icon">📍</span>Avenue Abdoulaye Fadiga, BP 2073 - 18524, Dakar, Senegal</p>
     </div>
     <a href="contact.vcf" class="btn" download>+ Enregistrer le contact</a>
@@ -80,4 +96,3 @@
   </div>
 </body>
 </html>
-
