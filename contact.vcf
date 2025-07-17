@@ -1,11 +1,12 @@
 BEGIN:VCARD
 VERSION:3.0
-FN: Aby Myriam Pouye Diop
+FN:Aby Myriam Pouye Diop
+N:Diop;Aby Myriam;;;
 TITLE:Responsable ESG & Projet
 ORG:Novotel & Ibis Styles Dakar
 TEL;TYPE=WORK,VOICE:+221775296110
 TEL;TYPE=WORK,VOICE:+221338496161
-EMAIL:Aby-myriam.POUYE@accor.com
-ADR:;;Avenue Abdoulaye Fadiga, BP 2073 - 18524;Dakar;;Senegal
+EMAIL;TYPE=INTERNET,WORK:Aby-myriam.POUYE@accor.com
 URL:https://all.accor.com
+ADR;TYPE=WORK:;;Avenue Abdoulaye Fadiga, BP 2073 - 18524;Dakar;;Senegal
 END:VCARD
