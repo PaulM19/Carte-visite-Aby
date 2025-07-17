@@ -1,65 +1,82 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carte de visite - Aby Myriam Pouye Diop</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            background-color: #f5f5f5;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 2em;
-        }
-        .card {
-            max-width: 360px;
-            background-color: #fff;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            border-radius: 8px;
-            overflow: hidden;
-            text-align: center;
-        }
-        img {
-            width: 100%;
-            display: block;
-        }
-        .info {
-            padding: 1em;
-        }
-        .info a {
-            display: block;
-            margin: 0.3em 0;
-            color: #0077cc;
-            text-decoration: none;
-        }
-        .info a:hover {
-            text-decoration: underline;
-        }
-        .vcf {
-            margin-top: 1em;
-            padding: 0.6em 1.2em;
-            background-color: #0077cc;
-            color: white;
-            text-decoration: none;
-            border-radius: 4px;
-            display: inline-block;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carte de visite - Aby Pouye</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #1e003e;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .card {
+      background: linear-gradient(135deg, #663399, #1e003e);
+      border-radius: 20px;
+      color: white;
+      width: 340px;
+      padding: 20px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    }
+    .top-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .profile-img {
+      border-radius: 12px;
+      width: 70px;
+      height: 70px;
+      object-fit: cover;
+    }
+    .info {
+      margin-top: 20px;
+    }
+    .info p {
+      margin: 6px 0;
+    }
+    .icon {
+      margin-right: 10px;
+    }
+    .btn {
+      display: block;
+      margin: 15px 0;
+      padding: 12px;
+      text-align: center;
+      border: 1px solid #a062ff;
+      border-radius: 10px;
+      background-color: transparent;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background-color: #a062ff;
+    }
+  </style>
 </head>
 <body>
-    <div class="card">
-        <img src="business_card_web.jpg" alt="Carte de visite Aby Myriam Pouye Diop">
-        <div class="info">
-            <a href="tel:+221775296110">📞 +221 77 529 61 10</a>
-            <a href="tel:+221338496161">📞 +221 33 849 61 61</a>
-            <a href="mailto:Aby-myriam.POUYE@accor.com">✉️ Aby-myriam.POUYE@accor.com</a>
-            <a href="https://novotel.com" target="_blank">🌐 novotel.com</a>
-            <a href="https://ibis.com" target="_blank">🌐 ibis.com</a>
-            <a href="https://all.accor.com" target="_blank">🌐 all.accor.com</a>
-            <a class="vcf" href="contact.vcf" download>📥 Ajouter aux contacts</a>
-        </div>
+  <div class="card">
+    <div class="top-section">
+      <img src="business_card_web.jpg" alt="Aby Pouye" class="profile-img" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Accor_logo.svg/2560px-Accor_logo.svg.png" alt="Logo" style="height: 30px;" />
     </div>
+    <div class="info">
+      <h2>Aby Myriam Pouye Diop</h2>
+      <p>Responsable ESG & Projet</p>
+      <p><span class="icon">📧</span><a style="color:white" href="mailto:Aby-myriam.POUYE@accor.com">Aby-myriam.POUYE@accor.com</a></p>
+      <p><span class="icon">📞</span><a style="color:white" href="tel:+221775296110">+221 77 529 61 10</a></p>
+      <p><span class="icon">📞</span><a style="color:white" href="tel:+221338496161">+221 33 849 61 61</a></p>
+      <p><span class="icon">📍</span>Avenue Abdoulaye Fadiga, BP 2073 - 18524, Dakar, Senegal</p>
+    </div>
+    <a href="contact.vcf" class="btn" download>+ Enregistrer le contact</a>
+    <a href="mailto:Aby-myriam.POUYE@accor.com?subject=Demande de contact" class="btn">↪ M'envoyer vos coordonnées</a>
+  </div>
 </body>
 </html>
