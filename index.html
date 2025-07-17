@@ -8,14 +8,14 @@
     body {
       margin: 0;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #d0deec; /* bleu de fond légèrement plus foncé */
+      background-color: #d0deec;
       display: flex;
       align-items: center;
       justify-content: center;
       height: 100vh;
     }
     .card {
-      background-color: #d0deec; /* même couleur que le fond général */
+      background-color: #d0deec;
       border-radius: 20px;
       color: #003580;
       width: 340px;
@@ -44,9 +44,13 @@
     .info p {
       margin: 6px 0;
       color: #003580;
+      display: flex;
+      align-items: center;
     }
     .icon {
       margin-right: 10px;
+      width: 18px;
+      height: 18px;
     }
     .btn {
       display: block;
@@ -82,6 +86,10 @@
       color: #A9B3C1;
       margin-bottom: 10px;
     }
+    .svg-icon {
+      fill: #003580;
+      margin-right: 10px;
+    }
   </style>
 </head>
 <body>
@@ -91,10 +99,10 @@
     <div class="info">
       <h2>Aby Myriam Pouye Diop</h2>
       <p class="subtitle">Responsable ESG & Projet</p>
-      <p><span class="icon">📧</span><a href="mailto:Aby-myriam.POUYE@accor.com">Aby-myriam.POUYE@accor.com</a></p>
-      <p><span class="icon">📞</span><a href="tel:+221775296110">+221 77 529 61 10</a></p>
-      <p><span class="icon">📞</span><a href="tel:+221338496161">+221 33 849 61 61</a></p>
-      <p><span class="icon">📍</span>Avenue Abdoulaye Fadiga, BP 2073 - 18524, Dakar, Senegal</p>
+      <p><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg><a href="mailto:Aby-myriam.POUYE@accor.com">Aby-myriam.POUYE@accor.com</a></p>
+      <p><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.62 10.79a15.464 15.464 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27 11.72 11.72 0 004.1.78 1 1 0 011 1v3.5a1 1 0 01-1 1C10.4 22 2 13.6 2 3.5a1 1 0 011-1H6.5a1 1 0 011 1c0 1.44.27 2.84.78 4.1a1 1 0 01-.27 1.11l-2.2 2.2z"/></svg><a href="tel:+221775296110">+221 77 529 61 10</a></p>
+      <p><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6.62 10.79a15.464 15.464 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.27 11.72 11.72 0 004.1.78 1 1 0 011 1v3.5a1 1 0 01-1 1C10.4 22 2 13.6 2 3.5a1 1 0 011-1H6.5a1 1 0 011 1c0 1.44.27 2.84.78 4.1a1 1 0 01-.27 1.11l-2.2 2.2z"/></svg><a href="tel:+221338496161">+221 33 849 61 61</a></p>
+      <p><svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/></svg>Avenue Abdoulaye Fadiga, BP 2073 - 18524, Dakar, Senegal</p>
     </div>
     <a href="contact.vcf" class="btn" download>+ Enregistrer le contact</a>
     <a href="mailto:Aby-myriam.POUYE@accor.com?subject=Demande de contact" class="btn">↪ M'envoyer vos coordonnées</a>
